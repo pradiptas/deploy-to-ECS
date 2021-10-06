@@ -1,0 +1,10 @@
+version: 2.1
+
+jobs:
+  container-build-deploy:
+    steps:
+      - checkout
+      - run:
+          name: sample_command
+          command: |
+            echo "testing command on circle ci"
