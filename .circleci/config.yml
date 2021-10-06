@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   container-build-deploy:
     executor: machine
-      steps:
+    steps:
         - checkout
         - run:
             name: sample_command
