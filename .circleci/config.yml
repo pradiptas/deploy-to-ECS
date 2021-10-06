@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   build:
-    #executor: linux
+    executor: linux
     steps:
         - checkout
         - run:
